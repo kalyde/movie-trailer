@@ -14,16 +14,19 @@ main_page_head = '''
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            background-color: #000;
+            font-family: 'Roboto', sans-serif;
         }
         #trailer .modal-dialog {
-            margin-top: 200px;
-            width: 640px;
-            height: 480px;
+            margin-top: 50px;
+            width: 100%;
+            height: 75%;
         }
         .hanging-close {
             position: absolute;
@@ -38,9 +41,11 @@ main_page_head = '''
         .movie-tile {
             margin-bottom: 20px;
             padding-top: 20px;
+            color: #FFF;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: #330000;
+            color: #FFF;
             cursor: pointer;
         }
         .scale-media {
