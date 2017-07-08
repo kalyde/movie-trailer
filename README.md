@@ -2,9 +2,11 @@
 movie-trailer creates a website to display a movie's poster and trailer.
 
 ## Usage
-To create movies, `media.Movie` takes in 3 arguments: title, poster URL and YouTube trailer URL.
+To create movies, `media.Movie` takes in 4 arguments: title, poster URL, YouTube trailer URL and Release Date (from API).
 
-`your_movie1 = media.Movie("Title", "Poster URL", "YouTube URL")`
+To use data from API, go to https://www.themoviedb.org/, search for a movie and find the Movie ID in the URL and enter it in the `movie_id` array.
+
+`your_movie1 = media.Movie("Title", "Poster URL", "YouTube URL", release_date[i])`
 
 Then add each instance into the `movies` array.
 
